@@ -6,84 +6,84 @@
       "value": "",
       "type": "String | Component",
       "description": "The element or component the Combobox should render as.",
-      "description_zh": "The element or component the Combobox should render as."
+      "description_zh": "Combobox 应呈现为的元素或组件。"
     },
     "defaultValue": {
       "default": "—",
       "value": "",
       "type": "T",
       "description": "The default value when using as an uncontrolled component.",
-      "description_zh": "The default value when using as an uncontrolled component."
+      "description_zh": "用作非受控零部件时的默认值。"
     },
     "by": {
       "default": "—",
       "value": "",
       "type": "keyof T | ((a: T, z: T) => boolean)",
       "description": "Use this to compare objects by a particular field, or pass your own\ncomparison function for complete control over how objects are compared.",
-      "description_zh": "Use this to compare objects by a particular field, or pass your own\ncomparison function for complete control over how objects are compared."
+      "description_zh": "使用此函数按特定字段比较对象，或传递您自己的\n比较功能，用于完全控制对象的比较方式。"
     },
     "onChange": {
       "default": "—",
       "value": "",
       "type": "(value: T) => void",
       "description": "The function to call when a new option is selected.",
-      "description_zh": "The function to call when a new option is selected."
+      "description_zh": "选择新选项时要调用的函数。"
     },
     "name": {
       "default": "—",
       "value": "",
       "type": "String",
       "description": "The name used when using this component inside a form.",
-      "description_zh": "The name used when using this component inside a form."
+      "description_zh": "在表单中使用此组件时使用的名称。"
     },
     "nullable": {
       "default": "—",
       "value": "",
       "type": "Boolean",
       "description": "Whether you can clear the combobox or not.",
-      "description_zh": "Whether you can clear the combobox or not."
+      "description_zh": "是否可以清除组合框。"
     },
     "multiple": {
       "default": "false",
       "value": "",
       "type": "Boolean",
       "description": "Whether multiple options can be selected or not.",
-      "description_zh": "Whether multiple options can be selected or not."
+      "description_zh": "是否可以选择多个选项。"
     },
     ":value": {
       "default": "",
       "value": "",
       "type": "T",
       "description": "The selected value.",
-      "description_zh": "The selected value."
+      "description_zh": "所选值。"
     },
     ":open": {
       "default": "",
       "value": "",
       "type": "Boolean",
       "description": "Whether or not the combobox is open.",
-      "description_zh": "Whether or not the combobox is open."
+      "description_zh": "组合框是否打开。"
     },
     ":disabled": {
       "default": "",
       "value": "",
       "type": "Boolean",
       "description": "Whether or not the combobox is disabled.",
-      "description_zh": "Whether or not the combobox is disabled."
+      "description_zh": "组合框是否被禁用。"
     },
     ":activeIndex": {
       "default": "",
       "value": "",
       "type": "Number | null",
       "description": "The index of the active option or null if none is active.",
-      "description_zh": "The index of the active option or null if none is active."
+      "description_zh": "active 选项的索引，如果没有活动选项，则为 null。"
     },
     ":activeOption": {
       "default": "",
       "value": "",
       "type": "T | null",
       "description": "The active option or null if none is active.",
-      "description_zh": "The active option or null if none is active."
+      "description_zh": "active 选项或 null（如果没有）处于活动状态。"
     }
   },
   "link": "https://headlessui.com/v1/react/combobox",

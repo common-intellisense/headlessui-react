@@ -6,21 +6,21 @@
       "value": "",
       "type": "String | Component",
       "description": "The element or component the Popover should render as.",
-      "description_zh": "The element or component the Popover should render as."
+      "description_zh": "Popover 应呈现为的元素或组件。"
     },
     ":open": {
       "default": "",
       "value": "",
       "type": "Boolean",
       "description": "Whether or not the popover is open.",
-      "description_zh": "Whether or not the popover is open."
+      "description_zh": "弹出窗口是否打开。"
     },
     ":close": {
       "default": "",
       "value": "",
       "type": "(ref?: ref | HTMLElement) => void",
       "description": "Closes the popover and refocuses Popover.Button. Optionally pass in a\nref or HTMLElement to focus that element instead.",
-      "description_zh": "Closes the popover and refocuses Popover.Button. Optionally pass in a\nref or HTMLElement to focus that element instead."
+      "description_zh": "关闭弹出框并重新聚焦 Popover.Button。（可选）传入\nref 或 HTMLElement 来聚焦该元素。"
     }
   },
   "link": "https://headlessui.com/v1/react/popover",

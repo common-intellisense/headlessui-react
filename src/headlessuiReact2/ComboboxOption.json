@@ -6,35 +6,35 @@
       "value": "",
       "type": "T",
       "description": "The option value.",
-      "description_zh": "The option value."
+      "description_zh": "选项值。"
     },
     "as": {
       "default": "li",
       "value": "",
       "type": "String | Component",
       "description": "The element or component the Combobox.Option should render as.",
-      "description_zh": "The element or component the Combobox.Option should render as."
+      "description_zh": "Combobox.Option 应呈现为的元素或组件。"
     },
     ":active": {
       "default": "",
       "value": "",
       "type": "Boolean",
       "description": "Whether or not the option is the active/focused option.",
-      "description_zh": "Whether or not the option is the active/focused option."
+      "description_zh": "选项是否为 active/focused 选项。"
     },
     ":selected": {
       "default": "",
       "value": "",
       "type": "Boolean",
       "description": "Whether or not the option is the selected option.",
-      "description_zh": "Whether or not the option is the selected option."
+      "description_zh": "选项是否为选定选项。"
     },
     ":disabled": {
       "default": "",
       "value": "",
       "type": "Boolean",
       "description": "Whether or not the option is the disabled for keyboard navigation and ARIA\npurposes.",
-      "description_zh": "Whether or not the option is the disabled for keyboard navigation and ARIA\npurposes."
+      "description_zh": "该选项是否对键盘导航和 ARIA 处于禁用状态\n目的。"
     }
   },
   "link": "https://headlessui.com/v1/react/combobox",

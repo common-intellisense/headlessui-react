@@ -6,14 +6,14 @@
       "value": "",
       "type": "String | Component",
       "description": "The element or component the Tab.Panels should render as.",
-      "description_zh": "The element or component the Tab.Panels should render as."
+      "description_zh": "Tab.Panels 应呈现为的元素或组件。"
     },
     ":selectedIndex": {
       "default": "",
       "value": "",
       "type": "Number",
       "description": "The currently selected index.",
-      "description_zh": "The currently selected index."
+      "description_zh": "当前选定的索引。"
     }
   },
   "link": "https://headlessui.com/v1/react/tabs",

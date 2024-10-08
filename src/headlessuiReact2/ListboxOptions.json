@@ -6,28 +6,28 @@
       "value": "",
       "type": "String | Component",
       "description": "The element or component the Listbox.Options should render as.",
-      "description_zh": "The element or component the Listbox.Options should render as."
+      "description_zh": "Listbox.Options 应呈现为的元素或组件。"
     },
     "static": {
       "default": "false",
       "value": "",
       "type": "Boolean",
       "description": "Whether the element should ignore the internally managed open/closed\nstate.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it.",
-      "description_zh": "Whether the element should ignore the internally managed open/closed\nstate.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it."
+      "description_zh": "元素是否应忽略内部管理的 open/closed\n州。注意：static 和 unmount 不能同时使用。您将\n如果尝试这样做，则会收到 TypeScript 错误。"
     },
     "unmount": {
       "default": "true",
       "value": "",
       "type": "Boolean",
       "description": "Whether the element should be unmounted or hidden based on the\nopen/closed state.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it.",
-      "description_zh": "Whether the element should be unmounted or hidden based on the\nopen/closed state.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it."
+      "description_zh": "元素应该被卸载还是隐藏，这取决于\n打开/关闭状态。注意：static 和 unmount 不能同时使用。您将\n如果尝试这样做，则会收到 TypeScript 错误。"
     },
     ":open": {
       "default": "",
       "value": "",
       "type": "Boolean",
       "description": "Whether or not the Listbox is open.",
-      "description_zh": "Whether or not the Listbox is open."
+      "description_zh": "Listbox 是否打开。"
     }
   },
   "link": "https://headlessui.com/v1/react/listbox",

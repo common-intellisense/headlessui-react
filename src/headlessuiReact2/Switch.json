@@ -6,42 +6,42 @@
       "value": "",
       "type": "String | Component",
       "description": "The element or component the Switch should render as.",
-      "description_zh": "The element or component the Switch should render as."
+      "description_zh": "Switch 应渲染为的元素或组件。"
     },
     "defaultChecked": {
       "default": "—",
       "value": "",
       "type": "T",
       "description": "The default checked value when using as an uncontrolled component.",
-      "description_zh": "The default checked value when using as an uncontrolled component."
+      "description_zh": "用作非受控零部件时的默认选中值。"
     },
     "onChange": {
       "default": "—",
       "value": "",
       "type": "(value: Boolean) => void",
       "description": "The function to call when the switch is toggled.",
-      "description_zh": "The function to call when the switch is toggled."
+      "description_zh": "切换开关时要调用的函数。"
     },
     "name": {
       "default": "—",
       "value": "",
       "type": "String",
       "description": "The name used when using this component inside a form.",
-      "description_zh": "The name used when using this component inside a form."
+      "description_zh": "在表单中使用此组件时使用的名称。"
     },
     "value": {
       "default": "—",
       "value": "",
       "type": "String",
       "description": "The value used when using this component inside a form, if it is checked.",
-      "description_zh": "The value used when using this component inside a form, if it is checked."
+      "description_zh": "在表单中使用此组件时使用的值（如果已选中）。"
     },
     ":checked": {
       "default": "",
       "value": "",
       "type": "Boolean",
       "description": "Whether or not the switch is checked.",
-      "description_zh": "Whether or not the switch is checked."
+      "description_zh": "是否选中 switch。"
     }
   },
   "link": "https://headlessui.com/v1/react/switch",

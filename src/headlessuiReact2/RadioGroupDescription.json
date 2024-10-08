@@ -6,7 +6,7 @@
       "value": "",
       "type": "String | Component",
       "description": "The element or component the RadioGroup.Description should render as.",
-      "description_zh": "The element or component the RadioGroup.Description should render as."
+      "description_zh": "RadioGroup.Description 应呈现为的元素或组件。"
     }
   },
   "link": "https://headlessui.com/v1/react/radio-group",

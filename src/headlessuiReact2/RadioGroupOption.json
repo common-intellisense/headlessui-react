@@ -6,35 +6,35 @@
       "value": "",
       "type": "String | Component",
       "description": "The element or component the RadioGroup.Option should render as.",
-      "description_zh": "The element or component the RadioGroup.Option should render as."
+      "description_zh": "RadioGroup.Option 应呈现为的元素或组件。"
     },
     "value": {
       "default": "—",
       "value": "",
       "type": "T | undefined",
       "description": "The value of the current RadioGroup.Option. The type should match the\ntype of the value in the RadioGroup component.",
-      "description_zh": "The value of the current RadioGroup.Option. The type should match the\ntype of the value in the RadioGroup component."
+      "description_zh": "当前 RadioGroup.Option 的值。类型应与\ntype 的 RadioGroup 组件中的值。"
     },
     ":active": {
       "default": "",
       "value": "",
       "type": "Boolean",
       "description": "Whether or not the option is active (using the mouse or keyboard).",
-      "description_zh": "Whether or not the option is active (using the mouse or keyboard)."
+      "description_zh": "选项是否处于活动状态（使用鼠标或键盘）。"
     },
     ":checked": {
       "default": "",
       "value": "",
       "type": "Boolean",
       "description": "Whether or not the current option is the checked value.",
-      "description_zh": "Whether or not the current option is the checked value."
+      "description_zh": "当前选项是否为选中的值。"
     },
     ":disabled": {
       "default": "",
       "value": "",
       "type": "boolean",
       "description": "Whether or not the current option is disabled.",
-      "description_zh": "Whether or not the current option is disabled."
+      "description_zh": "当前选项是否处于禁用状态。"
     }
   },
   "link": "https://headlessui.com/v1/react/radio-group",

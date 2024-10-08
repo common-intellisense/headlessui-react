@@ -6,14 +6,14 @@
       "value": "",
       "type": "String | Component",
       "description": "The element or component the Switch.Label should render as.",
-      "description_zh": "The element or component the Switch.Label should render as."
+      "description_zh": "Switch.Label 应呈现为的元素或组件。"
     },
     "passive": {
       "default": "false",
       "value": "",
       "type": "Boolean",
       "description": "When true, clicking the label won't toggle the Switch.",
-      "description_zh": "When true, clicking the label won't toggle the Switch."
+      "description_zh": "如果为 true，则单击标签不会切换 Switch。"
     }
   },
   "link": "https://headlessui.com/v1/react/switch",

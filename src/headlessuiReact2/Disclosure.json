@@ -6,28 +6,28 @@
       "value": "",
       "type": "String | Component",
       "description": "The element or component the Disclosure should render as.",
-      "description_zh": "The element or component the Disclosure should render as."
+      "description_zh": "Disclosure 应呈现为的元素或组件。"
     },
     "defaultOpen": {
       "default": "false",
       "value": "",
       "type": "Boolean",
       "description": "Whether or not the Disclosure component should be open by default.",
-      "description_zh": "Whether or not the Disclosure component should be open by default."
+      "description_zh": "默认情况下是否应打开 Disclosure 组件。"
     },
     ":open": {
       "default": "",
       "value": "",
       "type": "Boolean",
       "description": "Whether or not the disclosure is open.",
-      "description_zh": "Whether or not the disclosure is open."
+      "description_zh": "无论披露是否公开。"
     },
     ":close": {
       "default": "",
       "value": "",
       "type": "(ref?: ref | HTMLElement) => void",
       "description": "Closes the disclosure and refocuses Disclosure.Button. Optionally pass\nin a ref or HTMLElement to focus that element instead.",
-      "description_zh": "Closes the disclosure and refocuses Disclosure.Button. Optionally pass\nin a ref or HTMLElement to focus that element instead."
+      "description_zh": "关闭披露并重新聚焦 Disclosure.Button。（可选）传递\n在 ref 或 HTMLElement 中来聚焦该元素。"
     }
   },
   "link": "https://headlessui.com/v1/react/disclosure",

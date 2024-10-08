@@ -6,42 +6,42 @@
       "value": "",
       "type": "String | Component",
       "description": "The element or component the Tabs should render as.",
-      "description_zh": "The element or component the Tabs should render as."
+      "description_zh": "选项卡应呈现为的元素或组件。"
     },
     "defaultIndex": {
       "default": "0",
       "value": "",
       "type": "Number",
       "description": "The default selected index",
-      "description_zh": "The default selected index"
+      "description_zh": "默认选定的索引"
     },
     "onChange": {
       "default": "—",
       "value": "",
       "type": "(index: number) => void",
       "description": "A function called whenever the active tab changes.",
-      "description_zh": "A function called whenever the active tab changes."
+      "description_zh": "每当活动选项卡更改时调用的函数。"
     },
     "vertical": {
       "default": "false",
       "value": "",
       "type": "Boolean",
       "description": "When true, the orientation of the Tab.List will be vertical, otherwise\nit will be horizontal.",
-      "description_zh": "When true, the orientation of the Tab.List will be vertical, otherwise\nit will be horizontal."
+      "description_zh": "如果为 true，则 Tab.List 的方向将是垂直的，否则\n它将是水平的。"
     },
     "manual": {
       "default": "false",
       "value": "",
       "type": "Boolean",
       "description": "When true, the user can only display a panel via the keyboard by first\nnavigating to it using the arrow keys, and then by pressing Enter or\nSpace. By default, panels are automatically displayed when navigated to\nvia the arrow keys. Note that this prop has no affect on mouse behavior.",
-      "description_zh": "When true, the user can only display a panel via the keyboard by first\nnavigating to it using the arrow keys, and then by pressing Enter or\nSpace. By default, panels are automatically displayed when navigated to\nvia the arrow keys. Note that this prop has no affect on mouse behavior."
+      "description_zh": "如果为 true，则用户只能首先通过键盘显示面板\n使用箭头键导航到该地址，然后按 Enter 或\n空间。默认情况下，面板在导航到\n通过箭头键。请注意，此 prop 对鼠标行为没有影响。"
     },
     ":selectedIndex": {
       "default": "",
       "value": "",
       "type": "Number",
       "description": "The currently selected index.",
-      "description_zh": "The currently selected index."
+      "description_zh": "当前选定的索引。"
     }
   },
   "link": "https://headlessui.com/v1/react/tabs",
