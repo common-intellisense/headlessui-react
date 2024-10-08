@@ -1,1 +1,1 @@
-export * from './headlessReact2'
+export * from './headlessuiReact2'
