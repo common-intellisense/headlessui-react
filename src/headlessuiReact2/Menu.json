@@ -1,0 +1,37 @@
+{
+  "name": "Menu",
+  "props": {
+    "as": {
+      "default": "Fragment",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Menu should render as.",
+      "description_zh": "The element or component the Menu should render as."
+    },
+    ":open": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the Menu is open.",
+      "description_zh": "Whether or not the Menu is open."
+    },
+    ":close": {
+      "default": "",
+      "value": "",
+      "type": "() => void",
+      "description": "Closes the menu and refocuses Menu.Button.",
+      "description_zh": "Closes the menu and refocuses Menu.Button."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/menu",
+  "link_zh": "https://headlessui.com/v1/react/menu",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [
+    "Menu.Button",
+    "Menu.Items"
+  ],
+  "filename": "Menu"
+}

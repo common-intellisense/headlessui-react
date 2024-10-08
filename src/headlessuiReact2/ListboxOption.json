@@ -1,0 +1,48 @@
+{
+  "name": "Listbox.Option",
+  "props": {
+    "value": {
+      "default": "—",
+      "value": "",
+      "type": "T",
+      "description": "The option value.",
+      "description_zh": "The option value."
+    },
+    "as": {
+      "default": "li",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Listbox.Option should render as.",
+      "description_zh": "The element or component the Listbox.Option should render as."
+    },
+    ":active": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the option is the active/focused option.",
+      "description_zh": "Whether or not the option is the active/focused option."
+    },
+    ":selected": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the option is the selected option.",
+      "description_zh": "Whether or not the option is the selected option."
+    },
+    ":disabled": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the option is the disabled for keyboard navigation and ARIA\npurposes.",
+      "description_zh": "Whether or not the option is the disabled for keyboard navigation and ARIA\npurposes."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/listbox",
+  "link_zh": "https://headlessui.com/v1/react/listbox",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [],
+  "filename": "ListboxOption"
+}

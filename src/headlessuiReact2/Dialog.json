@@ -1,0 +1,59 @@
+{
+  "name": "Dialog",
+  "props": {
+    "onClose": {
+      "default": "—",
+      "value": "",
+      "type": "(false) => void",
+      "description": "Called when the Dialog is dismissed (via outside click of the\nDialog.Panel or by pressing the Escape key). Typically used to close\nthe dialog by setting open to false.",
+      "description_zh": "Called when the Dialog is dismissed (via outside click of the\nDialog.Panel or by pressing the Escape key). Typically used to close\nthe dialog by setting open to false."
+    },
+    "initialFocus": {
+      "default": "—",
+      "value": "",
+      "type": "React.MutableRefObject",
+      "description": "A ref to an element that should receive focus first.",
+      "description_zh": "A ref to an element that should receive focus first."
+    },
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Dialog should render as.",
+      "description_zh": "The element or component the Dialog should render as."
+    },
+    "static": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should ignore the internally managed open/closed\nstate.",
+      "description_zh": "Whether the element should ignore the internally managed open/closed\nstate."
+    },
+    "unmount": {
+      "default": "true",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should be unmounted or hidden based on the open/closed\nstate.",
+      "description_zh": "Whether the element should be unmounted or hidden based on the open/closed\nstate."
+    },
+    ":open": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the dialog is open.",
+      "description_zh": "Whether or not the dialog is open."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/dialog",
+  "link_zh": "https://headlessui.com/v1/react/dialog",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [
+    "Dialog.Title",
+    "Dialog.Description",
+    "Dialog.Close"
+  ],
+  "filename": "Dialog"
+}

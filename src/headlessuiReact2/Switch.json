@@ -1,0 +1,55 @@
+{
+  "name": "Switch",
+  "props": {
+    "as": {
+      "default": "button",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Switch should render as.",
+      "description_zh": "The element or component the Switch should render as."
+    },
+    "defaultChecked": {
+      "default": "—",
+      "value": "",
+      "type": "T",
+      "description": "The default checked value when using as an uncontrolled component.",
+      "description_zh": "The default checked value when using as an uncontrolled component."
+    },
+    "onChange": {
+      "default": "—",
+      "value": "",
+      "type": "(value: Boolean) => void",
+      "description": "The function to call when the switch is toggled.",
+      "description_zh": "The function to call when the switch is toggled."
+    },
+    "name": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "The name used when using this component inside a form.",
+      "description_zh": "The name used when using this component inside a form."
+    },
+    "value": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "The value used when using this component inside a form, if it is checked.",
+      "description_zh": "The value used when using this component inside a form, if it is checked."
+    },
+    ":checked": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the switch is checked.",
+      "description_zh": "Whether or not the switch is checked."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/switch",
+  "link_zh": "https://headlessui.com/v1/react/switch",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [],
+  "filename": "Switch"
+}

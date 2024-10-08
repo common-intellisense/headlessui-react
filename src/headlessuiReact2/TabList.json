@@ -1,0 +1,29 @@
+{
+  "name": "Tab.List",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Tab.List should render as.",
+      "description_zh": "The element or component the Tab.List should render as."
+    },
+    ":selectedIndex": {
+      "default": "",
+      "value": "",
+      "type": "Number",
+      "description": "The currently selected index.",
+      "description_zh": "The currently selected index."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/tabs",
+  "link_zh": "https://headlessui.com/v1/react/tabs",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [
+    "Tab"
+  ],
+  "filename": "TabList"
+}

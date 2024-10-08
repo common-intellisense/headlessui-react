@@ -1,0 +1,120 @@
+{
+  "name": "Transition",
+  "props": {
+    "show": {
+      "default": "—",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the children should be shown or hidden.",
+      "description_zh": "Whether the children should be shown or hidden."
+    },
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component to render in place of the Transition itself.",
+      "description_zh": "The element or component to render in place of the Transition itself."
+    },
+    "appear": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the transition should run on initial mount.",
+      "description_zh": "Whether the transition should run on initial mount."
+    },
+    "unmount": {
+      "default": "true",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should be unmounted or hidden based on the show state.",
+      "description_zh": "Whether the element should be unmounted or hidden based on the show state."
+    },
+    "enter": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "Classes to add to the transitioning element during the entire enter phase.",
+      "description_zh": "Classes to add to the transitioning element during the entire enter phase."
+    },
+    "enterFrom": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "Classes to add to the transitioning element before the enter phase starts.",
+      "description_zh": "Classes to add to the transitioning element before the enter phase starts."
+    },
+    "enterTo": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "Classes to add to the transitioning element immediately after the enter\nphase starts.",
+      "description_zh": "Classes to add to the transitioning element immediately after the enter\nphase starts."
+    },
+    "entered": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "Classes to add to the transitioning element once the transition is done.\nThese classes will persist after that, until it's time to leave.",
+      "description_zh": "Classes to add to the transitioning element once the transition is done.\nThese classes will persist after that, until it's time to leave."
+    },
+    "leave": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "Classes to add to the transitioning element during the entire leave phase.",
+      "description_zh": "Classes to add to the transitioning element during the entire leave phase."
+    },
+    "leaveFrom": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "Classes to add to the transitioning element before the leave phase starts.",
+      "description_zh": "Classes to add to the transitioning element before the leave phase starts."
+    },
+    "leaveTo": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "Classes to add to the transitioning element immediately after the leave\nphase starts.",
+      "description_zh": "Classes to add to the transitioning element immediately after the leave\nphase starts."
+    },
+    "beforeEnter": {
+      "default": "—",
+      "value": "",
+      "type": "() => void",
+      "description": "Callback which is called before we start the enter transition.",
+      "description_zh": "Callback which is called before we start the enter transition."
+    },
+    "afterEnter": {
+      "default": "—",
+      "value": "",
+      "type": "() => void",
+      "description": "Callback which is called after we finished the enter transition.",
+      "description_zh": "Callback which is called after we finished the enter transition."
+    },
+    "beforeLeave": {
+      "default": "—",
+      "value": "",
+      "type": "() => void",
+      "description": "Callback which is called before we start the leave transition.",
+      "description_zh": "Callback which is called before we start the leave transition."
+    },
+    "afterLeave": {
+      "default": "—",
+      "value": "",
+      "type": "() => void",
+      "description": "Callback which is called after we finished the leave transition.",
+      "description_zh": "Callback which is called after we finished the leave transition."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/transition",
+  "link_zh": "https://headlessui.com/v1/react/transition",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [
+    "Transition.Child"
+  ],
+  "filename": "Transition"
+}

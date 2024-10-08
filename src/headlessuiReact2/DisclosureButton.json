@@ -1,0 +1,27 @@
+{
+  "name": "Disclosure.Button",
+  "props": {
+    "as": {
+      "default": "button",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Disclosure.Button should render as.",
+      "description_zh": "The element or component the Disclosure.Button should render as."
+    },
+    ":open": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the disclosure is open.",
+      "description_zh": "Whether or not the disclosure is open."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/disclosure",
+  "link_zh": "https://headlessui.com/v1/react/disclosure",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [],
+  "filename": "DisclosureButton"
+}

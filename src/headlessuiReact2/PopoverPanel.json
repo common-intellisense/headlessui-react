@@ -1,0 +1,55 @@
+{
+  "name": "Popover.Panel",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Popover.Panel should render as.",
+      "description_zh": "The element or component the Popover.Panel should render as."
+    },
+    "focus": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "This will force focus inside the Popover.Panel when the Popover is\nopen. It will also close the Popover if focus left this component.",
+      "description_zh": "This will force focus inside the Popover.Panel when the Popover is\nopen. It will also close the Popover if focus left this component."
+    },
+    "static": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should ignore the internally managed open/closed\nstate.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it.",
+      "description_zh": "Whether the element should ignore the internally managed open/closed\nstate.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it."
+    },
+    "unmount": {
+      "default": "true",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should be unmounted or hidden based on the\nopen/closed state.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it.",
+      "description_zh": "Whether the element should be unmounted or hidden based on the\nopen/closed state.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it."
+    },
+    ":open": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the popover is open.",
+      "description_zh": "Whether or not the popover is open."
+    },
+    ":close": {
+      "default": "",
+      "value": "",
+      "type": "(ref?: ref | HTMLElement) => void",
+      "description": "Closes the popover and refocuses Popover.Button. Optionally pass in a\nref or HTMLElement to focus that element instead.",
+      "description_zh": "Closes the popover and refocuses Popover.Button. Optionally pass in a\nref or HTMLElement to focus that element instead."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/popover",
+  "link_zh": "https://headlessui.com/v1/react/popover",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [],
+  "filename": "PopoverPanel"
+}

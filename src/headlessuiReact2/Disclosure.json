@@ -1,0 +1,44 @@
+{
+  "name": "Disclosure",
+  "props": {
+    "as": {
+      "default": "Fragment",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Disclosure should render as.",
+      "description_zh": "The element or component the Disclosure should render as."
+    },
+    "defaultOpen": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the Disclosure component should be open by default.",
+      "description_zh": "Whether or not the Disclosure component should be open by default."
+    },
+    ":open": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the disclosure is open.",
+      "description_zh": "Whether or not the disclosure is open."
+    },
+    ":close": {
+      "default": "",
+      "value": "",
+      "type": "(ref?: ref | HTMLElement) => void",
+      "description": "Closes the disclosure and refocuses Disclosure.Button. Optionally pass\nin a ref or HTMLElement to focus that element instead.",
+      "description_zh": "Closes the disclosure and refocuses Disclosure.Button. Optionally pass\nin a ref or HTMLElement to focus that element instead."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/disclosure",
+  "link_zh": "https://headlessui.com/v1/react/disclosure",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [
+    "Disclosure.Button",
+    "Disclosure.Panel"
+  ],
+  "filename": "Disclosure"
+}

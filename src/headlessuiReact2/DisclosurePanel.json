@@ -1,0 +1,48 @@
+{
+  "name": "Disclosure.Panel",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Disclosure.Panel should render as.",
+      "description_zh": "The element or component the Disclosure.Panel should render as."
+    },
+    "static": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should ignore the internally managed open/closed\nstate.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it.",
+      "description_zh": "Whether the element should ignore the internally managed open/closed\nstate.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it."
+    },
+    "unmount": {
+      "default": "true",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should be unmounted or hidden based on the\nopen/closed state.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it.",
+      "description_zh": "Whether the element should be unmounted or hidden based on the\nopen/closed state.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it."
+    },
+    ":open": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the disclosure is open.",
+      "description_zh": "Whether or not the disclosure is open."
+    },
+    ":close": {
+      "default": "",
+      "value": "",
+      "type": "(ref?: ref | HTMLElement) => void",
+      "description": "Closes the disclosure and refocuses Disclosure.Button. Optionally pass\nin a ref or HTMLElement to focus that element instead.",
+      "description_zh": "Closes the disclosure and refocuses Disclosure.Button. Optionally pass\nin a ref or HTMLElement to focus that element instead."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/disclosure",
+  "link_zh": "https://headlessui.com/v1/react/disclosure",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [],
+  "filename": "DisclosurePanel"
+}

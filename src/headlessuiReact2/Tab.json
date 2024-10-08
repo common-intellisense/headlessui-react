@@ -1,0 +1,34 @@
+{
+  "name": "Tab",
+  "props": {
+    "as": {
+      "default": "button",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Tab should render as.",
+      "description_zh": "The element or component the Tab should render as."
+    },
+    "disabled": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the Tab is currently disabled.",
+      "description_zh": "Whether or not the Tab is currently disabled."
+    },
+    ":selected": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the Tab is currently selected.",
+      "description_zh": "Whether or not the Tab is currently selected."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/tabs",
+  "link_zh": "https://headlessui.com/v1/react/tabs",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [],
+  "filename": "Tab"
+}

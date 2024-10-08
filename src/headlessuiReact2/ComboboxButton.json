@@ -1,0 +1,41 @@
+{
+  "name": "Combobox.Button",
+  "props": {
+    "as": {
+      "default": "button",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Combobox.Button should render as.",
+      "description_zh": "The element or component the Combobox.Button should render as."
+    },
+    ":value": {
+      "default": "",
+      "value": "",
+      "type": "T",
+      "description": "The selected value.",
+      "description_zh": "The selected value."
+    },
+    ":open": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the Combobox is open.",
+      "description_zh": "Whether or not the Combobox is open."
+    },
+    ":disabled": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the Combobox is disabled.",
+      "description_zh": "Whether or not the Combobox is disabled."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/combobox",
+  "link_zh": "https://headlessui.com/v1/react/combobox",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [],
+  "filename": "ComboboxButton"
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Combobox",
+  "props": {
+    "as": {
+      "default": "Fragment",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Combobox should render as.",
+      "description_zh": "The element or component the Combobox should render as."
+    },
+    "defaultValue": {
+      "default": "—",
+      "value": "",
+      "type": "T",
+      "description": "The default value when using as an uncontrolled component.",
+      "description_zh": "The default value when using as an uncontrolled component."
+    },
+    "by": {
+      "default": "—",
+      "value": "",
+      "type": "keyof T | ((a: T, z: T) => boolean)",
+      "description": "Use this to compare objects by a particular field, or pass your own\ncomparison function for complete control over how objects are compared.",
+      "description_zh": "Use this to compare objects by a particular field, or pass your own\ncomparison function for complete control over how objects are compared."
+    },
+    "onChange": {
+      "default": "—",
+      "value": "",
+      "type": "(value: T) => void",
+      "description": "The function to call when a new option is selected.",
+      "description_zh": "The function to call when a new option is selected."
+    },
+    "name": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "The name used when using this component inside a form.",
+      "description_zh": "The name used when using this component inside a form."
+    },
+    "nullable": {
+      "default": "—",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether you can clear the combobox or not.",
+      "description_zh": "Whether you can clear the combobox or not."
+    },
+    "multiple": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether multiple options can be selected or not.",
+      "description_zh": "Whether multiple options can be selected or not."
+    },
+    ":value": {
+      "default": "",
+      "value": "",
+      "type": "T",
+      "description": "The selected value.",
+      "description_zh": "The selected value."
+    },
+    ":open": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the combobox is open.",
+      "description_zh": "Whether or not the combobox is open."
+    },
+    ":disabled": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the combobox is disabled.",
+      "description_zh": "Whether or not the combobox is disabled."
+    },
+    ":activeIndex": {
+      "default": "",
+      "value": "",
+      "type": "Number | null",
+      "description": "The index of the active option or null if none is active.",
+      "description_zh": "The index of the active option or null if none is active."
+    },
+    ":activeOption": {
+      "default": "",
+      "value": "",
+      "type": "T | null",
+      "description": "The active option or null if none is active.",
+      "description_zh": "The active option or null if none is active."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/combobox",
+  "link_zh": "https://headlessui.com/v1/react/combobox",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [
+    "Combobox.Input",
+    "Combobox.Options",
+    "Combobox.Button"
+  ],
+  "filename": "Combobox"
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Listbox",
+  "props": {
+    "as": {
+      "default": "Fragment",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Listbox should render as.",
+      "description_zh": "The element or component the Listbox should render as."
+    },
+    "defaultValue": {
+      "default": "—",
+      "value": "",
+      "type": "T",
+      "description": "The default value when using as an uncontrolled component.",
+      "description_zh": "The default value when using as an uncontrolled component."
+    },
+    "by": {
+      "default": "—",
+      "value": "",
+      "type": "keyof T | ((a: T, z: T) => boolean)",
+      "description": "Use this to compare objects by a particular field, or pass your own\ncomparison function for complete control over how objects are compared.",
+      "description_zh": "Use this to compare objects by a particular field, or pass your own\ncomparison function for complete control over how objects are compared."
+    },
+    "onChange": {
+      "default": "—",
+      "value": "",
+      "type": "(value: T) => void",
+      "description": "The function to call when a new option is selected.",
+      "description_zh": "The function to call when a new option is selected."
+    },
+    "horizontal": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "When true, the orientation of the Listbox.Options will be horizontal,\notherwise it will be vertical.",
+      "description_zh": "When true, the orientation of the Listbox.Options will be horizontal,\notherwise it will be vertical."
+    },
+    "name": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "The name used when using this component inside a form.",
+      "description_zh": "The name used when using this component inside a form."
+    },
+    "multiple": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether multiple options can be selected or not.",
+      "description_zh": "Whether multiple options can be selected or not."
+    },
+    ":value": {
+      "default": "",
+      "value": "",
+      "type": "T",
+      "description": "The selected value.",
+      "description_zh": "The selected value."
+    },
+    ":open": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the Listbox is open.",
+      "description_zh": "Whether or not the Listbox is open."
+    },
+    ":disabled": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the Listbox is disabled.",
+      "description_zh": "Whether or not the Listbox is disabled."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/listbox",
+  "link_zh": "https://headlessui.com/v1/react/listbox",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [
+    "Listbox.Button",
+    "Listbox.Options"
+  ],
+  "filename": "Listbox"
+}

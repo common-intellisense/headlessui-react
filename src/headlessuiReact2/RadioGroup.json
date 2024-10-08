@@ -1,0 +1,65 @@
+{
+  "name": "RadioGroup",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the RadioGroup should render as.",
+      "description_zh": "The element or component the RadioGroup should render as."
+    },
+    "value": {
+      "default": "—",
+      "value": "",
+      "type": "T | undefined",
+      "description": "The current selected value in the RadioGroup.",
+      "description_zh": "The current selected value in the RadioGroup."
+    },
+    "defaultValue": {
+      "default": "—",
+      "value": "",
+      "type": "T",
+      "description": "The default value when using as an uncontrolled component.",
+      "description_zh": "The default value when using as an uncontrolled component."
+    },
+    "by": {
+      "default": "—",
+      "value": "",
+      "type": "keyof T | ((a: T, z: T) => boolean)",
+      "description": "Use this to compare objects by a particular field, or pass your own\ncomparison function for complete control over how objects are compared.",
+      "description_zh": "Use this to compare objects by a particular field, or pass your own\ncomparison function for complete control over how objects are compared."
+    },
+    "onChange": {
+      "default": "—",
+      "value": "",
+      "type": "() => void",
+      "description": "The function called to update the RadioGroup value.",
+      "description_zh": "The function called to update the RadioGroup value."
+    },
+    "disabled": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether or not the RadioGroup and all of its RadioGroup.Option's are\ndisabled.",
+      "description_zh": "Whether or not the RadioGroup and all of its RadioGroup.Option's are\ndisabled."
+    },
+    "name": {
+      "default": "—",
+      "value": "",
+      "type": "String",
+      "description": "The name used when using this component inside a form.",
+      "description_zh": "The name used when using this component inside a form."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/radio-group",
+  "link_zh": "https://headlessui.com/v1/react/radio-group",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [
+    "RadioGroup.Option",
+    "RadioGroup.Label"
+  ],
+  "filename": "RadioGroup"
+}

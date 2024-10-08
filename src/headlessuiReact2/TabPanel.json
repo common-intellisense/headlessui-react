@@ -1,0 +1,41 @@
+{
+  "name": "Tab.Panel",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Tab.Panel should render as.",
+      "description_zh": "The element or component the Tab.Panel should render as."
+    },
+    "static": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should ignore the selected index.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it.",
+      "description_zh": "Whether the element should ignore the selected index.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it."
+    },
+    "unmount": {
+      "default": "true",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should be unmounted or hidden based on the selected\nindex.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it.",
+      "description_zh": "Whether the element should be unmounted or hidden based on the selected\nindex.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it."
+    },
+    ":selected": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the Tab.Panel is currently selected.",
+      "description_zh": "Whether or not the Tab.Panel is currently selected."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/tabs",
+  "link_zh": "https://headlessui.com/v1/react/tabs",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [],
+  "filename": "TabPanel"
+}

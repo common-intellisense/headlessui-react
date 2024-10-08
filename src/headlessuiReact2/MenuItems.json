@@ -1,0 +1,43 @@
+{
+  "name": "Menu.Items",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Menu.Items should render as.",
+      "description_zh": "The element or component the Menu.Items should render as."
+    },
+    "static": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should ignore the internally managed open/closed\nstate.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it.",
+      "description_zh": "Whether the element should ignore the internally managed open/closed\nstate.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it."
+    },
+    "unmount": {
+      "default": "true",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether the element should be unmounted or hidden based on the\nopen/closed state.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it.",
+      "description_zh": "Whether the element should be unmounted or hidden based on the\nopen/closed state.Note: static and unmount can not be used at the same time. You will\nget a TypeScript error if you try to do it."
+    },
+    ":open": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the Menu is open.",
+      "description_zh": "Whether or not the Menu is open."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/menu",
+  "link_zh": "https://headlessui.com/v1/react/menu",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [
+    "Menu.Item"
+  ],
+  "filename": "MenuItems"
+}

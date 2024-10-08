@@ -1,0 +1,34 @@
+{
+  "name": "Combobox.Label",
+  "props": {
+    "as": {
+      "default": "label",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Combobox.Label should render as.",
+      "description_zh": "The element or component the Combobox.Label should render as."
+    },
+    ":open": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the Combobox is open.",
+      "description_zh": "Whether or not the Combobox is open."
+    },
+    ":disabled": {
+      "default": "",
+      "value": "",
+      "type": "Boolean",
+      "description": "Whether or not the Combobox is disabled.",
+      "description_zh": "Whether or not the Combobox is disabled."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/combobox",
+  "link_zh": "https://headlessui.com/v1/react/combobox",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [],
+  "filename": "ComboboxLabel"
+}

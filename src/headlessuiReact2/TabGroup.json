@@ -1,0 +1,58 @@
+{
+  "name": "Tab.Group",
+  "props": {
+    "as": {
+      "default": "Fragment",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Tabs should render as.",
+      "description_zh": "The element or component the Tabs should render as."
+    },
+    "defaultIndex": {
+      "default": "0",
+      "value": "",
+      "type": "Number",
+      "description": "The default selected index",
+      "description_zh": "The default selected index"
+    },
+    "onChange": {
+      "default": "—",
+      "value": "",
+      "type": "(index: number) => void",
+      "description": "A function called whenever the active tab changes.",
+      "description_zh": "A function called whenever the active tab changes."
+    },
+    "vertical": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "When true, the orientation of the Tab.List will be vertical, otherwise\nit will be horizontal.",
+      "description_zh": "When true, the orientation of the Tab.List will be vertical, otherwise\nit will be horizontal."
+    },
+    "manual": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "When true, the user can only display a panel via the keyboard by first\nnavigating to it using the arrow keys, and then by pressing Enter or\nSpace. By default, panels are automatically displayed when navigated to\nvia the arrow keys. Note that this prop has no affect on mouse behavior.",
+      "description_zh": "When true, the user can only display a panel via the keyboard by first\nnavigating to it using the arrow keys, and then by pressing Enter or\nSpace. By default, panels are automatically displayed when navigated to\nvia the arrow keys. Note that this prop has no affect on mouse behavior."
+    },
+    ":selectedIndex": {
+      "default": "",
+      "value": "",
+      "type": "Number",
+      "description": "The currently selected index.",
+      "description_zh": "The currently selected index."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/tabs",
+  "link_zh": "https://headlessui.com/v1/react/tabs",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [
+    "Tab.List",
+    "Tab.Panels"
+  ],
+  "filename": "TabGroup"
+}

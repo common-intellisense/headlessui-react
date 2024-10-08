@@ -1,0 +1,27 @@
+{
+  "name": "Switch.Label",
+  "props": {
+    "as": {
+      "default": "label",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the Switch.Label should render as.",
+      "description_zh": "The element or component the Switch.Label should render as."
+    },
+    "passive": {
+      "default": "false",
+      "value": "",
+      "type": "Boolean",
+      "description": "When true, clicking the label won't toggle the Switch.",
+      "description_zh": "When true, clicking the label won't toggle the Switch."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/switch",
+  "link_zh": "https://headlessui.com/v1/react/switch",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [],
+  "filename": "SwitchLabel"
+}

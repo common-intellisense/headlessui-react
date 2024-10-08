@@ -1,0 +1,20 @@
+{
+  "name": "RadioGroup.Description",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "String | Component",
+      "description": "The element or component the RadioGroup.Description should render as.",
+      "description_zh": "The element or component the RadioGroup.Description should render as."
+    }
+  },
+  "link": "https://headlessui.com/v1/react/radio-group",
+  "link_zh": "https://headlessui.com/v1/react/radio-group",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [],
+  "filename": "RadioGroupDescription"
+}
